@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { moviesData } from './Components/moviesData';
-import Search from './Components/Search';
+import Search from './Components/SearchMovie/Search';
 import MoviesList from './Components/MoviesList';
-import AddMovie from './Components/AddMovie';
+import AddMovie from './Components/AddMovie/AddMovie';
 
 import './App.css';
 

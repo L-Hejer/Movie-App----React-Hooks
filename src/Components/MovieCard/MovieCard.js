@@ -1,5 +1,5 @@
 import React from 'react';
-import Rate from './Rate'
+import Rate from '../Rate'
 import './MovieCard.css';
 
 const MovieCard = (props) => {
