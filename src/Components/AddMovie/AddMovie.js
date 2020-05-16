@@ -62,7 +62,7 @@ const AddMovie = (props) => {
         <button
           className='Modal-btn'
         onClick={props.addMovie}
-    
+        
         >
           Submit
         </button>
