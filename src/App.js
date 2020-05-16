@@ -25,7 +25,8 @@ function App() {
       date: date,
       description: description,
     };
-    return setMoviesList([...moviesList, newMovie]);
+    return setMoviesList([...moviesList, newMovie]); 
+    
   };
 
   return (

@@ -45,44 +45,44 @@ export const moviesData = [
     description:
       "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
   },
-  {
-    id: Math.random(),
-    image:
-      'https://img.over-blog.com/406x600/3/01/25/75/111-111-1-111-AAAAAAA-61/BATMAN-BEGINS.jpg',
-    rating: 4,
-    name: 'Batman Begins',
-    date: '2005',
-    description:
-      "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
-  },
-  {
-    id: Math.random(),
-    image:
-      'https://i.pinimg.com/736x/02/26/ef/0226efc19731cd6eb998e0dd01d70b8d.jpg',
-    rating: 4,
-    name: 'Maleficent',
-    date: '2014',
-    description:
-      "A vengeful fairy curses an infant princess, but that child may be the one person who can restore peace to their troubled land.",
-  },
-  {
-    id: Math.random(),
-    image:
-      'https://fr.web.img6.acsta.net/medias/nmedia/00/00/00/84/69197536_af.jpg',
-    rating: 5,
-    name: 'Requiem for a Dream',
-    date: '2000',
-    description:
-      "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.",
-  },
-  {
-    id: Math.random(),
-    image:
-      'https://img6.cdn.cinoche.com/images/f73415aa762f5d1c86aebf3befb6f250.jpg',
-    rating: 5,
-    name: 'Side Effects',
-    date: '2013',
-    description:
-      "A young woman's world unravels when a drug prescribed by her psychiatrist has unexpected side effects.",
-  },
+  // {
+  //   id: Math.random(),
+  //   image:
+  //     'https://img.over-blog.com/406x600/3/01/25/75/111-111-1-111-AAAAAAA-61/BATMAN-BEGINS.jpg',
+  //   rating: 4,
+  //   name: 'Batman Begins',
+  //   date: '2005',
+  //   description:
+  //     "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
+  // },
+  // {
+  //   id: Math.random(),
+  //   image:
+  //     'https://i.pinimg.com/736x/02/26/ef/0226efc19731cd6eb998e0dd01d70b8d.jpg',
+  //   rating: 4,
+  //   name: 'Maleficent',
+  //   date: '2014',
+  //   description:
+  //     "A vengeful fairy curses an infant princess, but that child may be the one person who can restore peace to their troubled land.",
+  // },
+  // {
+  //   id: Math.random(),
+  //   image:
+  //     'https://fr.web.img6.acsta.net/medias/nmedia/00/00/00/84/69197536_af.jpg',
+  //   rating: 5,
+  //   name: 'Requiem for a Dream',
+  //   date: '2000',
+  //   description:
+  //     "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.",
+  // },
+  // {
+  //   id: Math.random(),
+  //   image:
+  //     'https://img6.cdn.cinoche.com/images/f73415aa762f5d1c86aebf3befb6f250.jpg',
+  //   rating: 5,
+  //   name: 'Side Effects',
+  //   date: '2013',
+  //   description:
+  //     "A young woman's world unravels when a drug prescribed by her psychiatrist has unexpected side effects.",
+  // },
 ];

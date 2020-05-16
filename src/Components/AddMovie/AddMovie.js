@@ -16,6 +16,11 @@ const AddMovie = (props) => {
     setIsOpen(false);
   }
 
+  const handleSubmit = (e) => {
+    props.addMovie(e);
+    setIsOpen(false);
+  };
+
   return (
     <div>
       <button className='Add-btn' onClick={openModal}>
@@ -32,37 +37,41 @@ const AddMovie = (props) => {
           <input
             type='text'
             name='name'
+            required
             onChange={(e) => props.setName(e.target.value)}
           />
           <label>Movie Rate</label>
           <input
             type='text'
             name='rating'
+            required
             onChange={(e) => props.setRating(e.target.value)}
           />
           <label>Movie Release Date</label>
           <input
             type='text'
             name='date'
+            required
             onChange={(e) => props.setDate(e.target.value)}
           />
           <label>Movie Image</label>
           <input
-            type='text'
+            type='url'
             name='image'
+            required
             onChange={(e) => props.setImage(e.target.value)}
           />
-                    <label>Movie Summary</label>
+          <label>Movie Summary</label>
           <input
             type='text'
             name='description'
+            required
             onChange={(e) => props.setDescription(e.target.value)}
           />
         </form>
         <button
           className='Modal-btn'
-        onClick={props.addMovie}
-        
+          onClick={handleSubmit}
         >
           Submit
         </button>
