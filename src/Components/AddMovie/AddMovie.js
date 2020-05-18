@@ -22,7 +22,7 @@ const AddMovie = (props) => {
   };
 
   return (
-    <div>
+    <div className='Add-btn-container'>
       <button className='Add-btn' onClick={openModal}>
         +
       </button>
