@@ -45,6 +45,16 @@ export const moviesData = [
     description:
       "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
   },
+  //   {
+  //   id: Math.random(),
+  //   image:
+  //     'https://i.pinimg.com/736x/02/26/ef/0226efc19731cd6eb998e0dd01d70b8d.jpg',
+  //   rating: 4,
+  //   name: 'Maleficent',
+  //   date: '2014',
+  //   description:
+  //     "A vengeful fairy curses an infant princess, but that child may be the one person who can restore peace to their troubled land.",
+  // },
   // {
   //   id: Math.random(),
   //   image:
@@ -54,16 +64,6 @@ export const moviesData = [
   //   date: '2005',
   //   description:
   //     "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
-  // },
-  // {
-  //   id: Math.random(),
-  //   image:
-  //     'https://i.pinimg.com/736x/02/26/ef/0226efc19731cd6eb998e0dd01d70b8d.jpg',
-  //   rating: 4,
-  //   name: 'Maleficent',
-  //   date: '2014',
-  //   description:
-  //     "A vengeful fairy curses an infant princess, but that child may be the one person who can restore peace to their troubled land.",
   // },
   // {
   //   id: Math.random(),

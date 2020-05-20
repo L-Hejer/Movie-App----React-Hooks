@@ -62,7 +62,7 @@ const AddMovie = (props) => {
             onChange={(e) => props.setImage(e.target.value)}
           />
           <label>Movie Summary</label>
-          <input
+          <textarea
             type='text'
             name='description'
             required
