@@ -1,18 +1,22 @@
 import React from 'react';
 
-const Rate = (props) => {
+const Rate = ({ starIndex = () => {}, rating }) => {
   const stars = (x) => {
     let star = [];
     for (let i = 0; i < 5; i++) {
       if (i < x) {
         star.push(
-          <span className='rating' onClick={() => props.starIndex(i + 1)}>
+          <span className='rating' onClick={() => starIndex(i + 1)}>
             ★
           </span>
         );
       } else {
         star.push(
-          <span className='rating' style={{cursor:'pointer'}} onClick={() => props.starIndex(i + 1)}>
+          <span
+            className='rating'
+            style={{ cursor: 'pointer' }}
+            onClick={() => starIndex(i + 1)}
+          >
             ☆
           </span>
         );
@@ -20,7 +24,7 @@ const Rate = (props) => {
     }
     return star;
   };
-  return <div>{stars(props.rating)}</div>;
+  return <div>{stars(rating)}</div>;
 };
 
 export default Rate;

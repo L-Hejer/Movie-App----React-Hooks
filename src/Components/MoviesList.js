@@ -22,7 +22,6 @@ const MoviesList = (props) => {
         .map((el, i) => (
           <MovieCard key={i} movie={el} />
         ))}
-
     </div>
   );
 };
