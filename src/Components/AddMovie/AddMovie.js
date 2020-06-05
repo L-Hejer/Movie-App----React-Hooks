@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import Modal from 'react-modal';
 
 import './AddMovie.css';
@@ -69,10 +70,7 @@ const AddMovie = (props) => {
             onChange={(e) => props.setDescription(e.target.value)}
           />
         </form>
-        <button
-          className='Modal-btn'
-          onClick={handleSubmit}
-        >
+        <button className='Modal-btn' onClick={handleSubmit}>
           Submit
         </button>
         <button className='Modal-btn' onClick={closeModal}>

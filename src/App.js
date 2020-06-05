@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import { moviesData } from './Components/moviesData';
 import Search from './Components/SearchMovie/Search';
 import MoviesList from './Components/MoviesList';
@@ -25,8 +26,7 @@ function App() {
       date: date,
       description: description,
     };
-    return setMoviesList([...moviesList, newMovie]); 
-    
+    return setMoviesList([...moviesList, newMovie]);
   };
 
   return (
