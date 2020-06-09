@@ -2,7 +2,7 @@ import React from 'react';
 
 import MovieCard from './MovieCard/MovieCard';
 
-const MoviesList = (props) => {
+const MoviesList = ({ moviesData, ratingSearch, nameSearch }) => {
   return (
     <div
       style={{
@@ -12,13 +12,11 @@ const MoviesList = (props) => {
         flexWrap: 'wrap',
       }}
     >
-      {props.moviesData
+      {moviesData
         .filter(
           (el) =>
-            el.rating >= props.ratingSearch &&
-            el.name
-              .toLowerCase()
-              .includes(props.nameSearch.toLowerCase().trim())
+            el.rating >= ratingSearch &&
+            el.name.toLowerCase().includes(nameSearch.toLowerCase().trim())
         )
         .map((el, i) => (
           <MovieCard key={i} movie={el} />
